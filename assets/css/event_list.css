@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+.section-top {
+  margin-bottom: 80px;
+}
+.section-top__image {
+  background-image: url("../images/event/event.png");
+  height: 250px;
+  background-size: 140% auto;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.section-top__image h2 {
+  color: #fff;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+@media (min-width: 960px) {
+  .section-top__image {
+    max-width: 1040px;
+    margin: 0 auto;
+    height: 350px;
+    background-size: 100% auto;
+  }
+  .section-top__image h2 {
+    top: 170px;
+  }
+}
+.section-event {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.section-event h2 {
+  padding: 0 24px 30px;
+  margin: 0 auto 60px;
+  border-bottom: solid 1px #333;
+  max-width: 960px;
+}
+.section-event ol {
+  list-style: none;
+  max-width: 900px;
+  margin: 0 auto 120px;
+}
+.section-event ol li {
+  margin-bottom: 40px;
+}
+.section-event__time {
+  background-color: #de7329;
+  width: 150px;
+  height: 24px;
+  padding-left: 8px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.section-event__time a {
+  text-decoration: none;
+  color: #fff;
+}
+.section-event__title {
+  text-align: left;
+}
+.section-event__title a {
+  text-decoration: none;
+  color: #333;
+}
+@media (min-width: 960px) {
+  .section-event__list1, .section-event__list2, .section-event__list3 {
+    display: flex;
+  }
+  .section-event__title {
+    padding-left: 30px;
+  }
+}

@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+.section-top {
+  margin-bottom: 80px;
+}
+.section-top__image {
+  background-image: url("../images/event/event.png");
+  height: 250px;
+  background-size: 140% auto;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.section-top__image h2 {
+  color: #fff;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+@media (min-width: 960px) {
+  .section-top__image {
+    max-width: 1040px;
+    margin: 0 auto;
+    height: 350px;
+    background-size: 100% auto;
+  }
+  .section-top__image h2 {
+    top: 170px;
+  }
+}
+.section__container {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.section__container img {
+  width: 80%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+.section__container-detail {
+  padding: 0 24px 60px;
+  text-align: left;
+  text-indent: 2rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section__container-detail1 {
+  padding-bottom: 20px;
+}
+.section__container-discription {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+.section__container-discription table {
+  margin: 0 auto 40px;
+  text-align: left;
+  line-height: 3.2rem;
+}
+.section__container-discription table span {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+.section__container-discription table td {
+  padding-left: 30px;
+}
+.section__container-attention {
+  background-color: #f5f3ed;
+  text-align: left;
+  padding: 20px 30px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  max-width: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section__container-attention span {
+  font-size: 1.4rem;
+}
+.section-lists__button {
+  display: block;
+  margin: 0 auto 80px;
+  background-color: #de7329;
+  border-radius: 20px;
+  max-width: 200px;
+  padding: 10px 20px;
+  text-align: center;
+}
+.section-lists__button a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+@media (min-width: 960px) {
+  .section__container {
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+}

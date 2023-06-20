@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+.section-top {
+  margin-bottom: 60px;
+}
+.section-top__image {
+  background-image: url("../images/access/access.png");
+  height: 250px;
+  background-size: 140% auto;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.section-top__image h2 {
+  color: #fff;
+  position: absolute;
+  top: 120px;
+  left: 0;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+@media (min-width: 960px) {
+  .section-top__image {
+    max-width: 1040px;
+    margin: 0 auto;
+    height: 350px;
+    background-size: 100% auto;
+  }
+  .section-top__image h2 {
+    top: 170px;
+  }
+}
+.section-address h2 {
+  margin-bottom: 30px;
+}
+.section-address address {
+  margin-bottom: 40px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-style: normal;
+}
+.section-address__break::after {
+  content: "\A";
+  white-space: pre;
+}
+.section-map {
+  margin-bottom: 80px;
+}
+.section-map iframe {
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+}
+@media (min-width: 1040px) {
+  .section-address__break::after {
+    content: "";
+  }
+  .section-map iframe {
+    max-width: 1040px;
+    margin: 0 auto;
+    border: solid 1px #969393;
+  }
+}
